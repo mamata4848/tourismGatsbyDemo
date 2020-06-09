@@ -17,6 +17,7 @@ query {
 `;
 
 const contact = ({ data }) => {
+    console.log(data);
     return (
         <Layout>
             <StyledHero img={data.contactBcg.childImageSharp.fluid}>
